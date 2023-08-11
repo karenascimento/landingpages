@@ -1,0 +1,130 @@
+/* NAVEGADOR */
+.navegador{
+    display: absolute;
+    position: fixed;
+    justify-content: space-between;
+    cursor: default;
+    background-color: rgba(0,0,0,0.92);
+    width: 100%;
+    height: 50px;
+}
+.navegador ul {
+    list-style-type: none;
+    align-items: center;
+    inline-size: auto;
+    display: flex;
+    color: grey;
+    /* justify-content: space-evenly; */
+    padding-top: 10px;
+    gap: 35px;
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* CONTAINER 1 */
+
+.container ul li{
+    margin-top: 7px;
+}
+
+.container-principal{
+    background-color: black;
+}
+
+.container__caixa{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container__link{
+    color: blue;
+    gap: 20px;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+/* CONTAINER 2 */
+.container__caixa2{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #e9e9e9;
+    
+}
+.container__caixa2 h1{
+    color: black;
+    font-family:Helvetica, sans-serif ;
+    font-size: 70px;
+}
+.container__caixa2 h2{
+    font-size: 30px;
+    font-family: Helvetica;
+    padding-top: 6px;
+}
+.container__caixa2 h3{
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container__link2{
+    color: blue;
+    gap: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+/* CONTAINER 3 */
+
+.container__relogio{
+    background-color:#e9e9e9;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container__relogio h3{
+    padding-top: 25px;
+    text-align: center;
+}
+
+/* CONTAINER 4 */
+
+.container__caixa4{
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.container__caixa4 h2{
+    font-size: 45px;
+}
+.container__caixa4 h3{
+    font-size: 25px;
+    padding-top: 10px;
+    color: #e9e9e9;
+}
+.container__link4 ul{
+    color: rgb(0, 0, 255);
+    padding-top: 15px;
+    padding-left: 650px;
+    padding-right: 600px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    
+}
+
+/* CONTAINER 5 */
+
